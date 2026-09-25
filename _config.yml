@@ -1,0 +1,12 @@
+title: Taylla Theodoro
+description: R&D engineer in computational imaging at the Chan Zuckerberg Biohub San Francisco. Smart microscopy, cell tracking, and 4D medical image analysis.
+url: https://tayllatheodoro.github.io
+baseurl: ""
+email: taylla.theodoro@czbiohub.org
+github: tayllatheodoro
+linkedin: taylla-theodoro
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - README.md

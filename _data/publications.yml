@@ -1,0 +1,57 @@
+# Full list, newest first. Wrap your own name in <b></b>. url is optional.
+- authors: "<b>T. M. Theodoro</b>, A. Q. Ryan, R. Banks, E. Hirata-Miyasaki, T. Lao, S. Jaisingh, A. Jacobo, S. B. Mehta, I. E. Ivanov"
+  title: "DynaTrack: label-agnostic smart tracking for mapping dynamics of organ development"
+  venue: SPIE High-Throughput Biophotonics XI
+  year: 2026
+  url: https://doi.org/10.1117/12.3080090
+- authors: "A. A. Kalinin, D. Zheng, <b>T. M. Theodoro</b>, I. E. Ivanov, E. Hirata-Miyasaki, S.-C. Lee, Z. Liu, S. Varra, T. Chandler, S. Pradeep, A. Liu, M. Leonetti, A. Arias, B. Huang, S. Mehta"
+  title: "DynaCell: an evaluation framework for dynamic 3D virtual staining of live cells"
+  venue: NeurIPS Datasets and Benchmarks Track
+  year: 2026
+  url: https://openreview.net/forum?id=Uc0kjRCFXo
+- authors: "<b>T. M. Theodoro</b>, I. F. Silva, S. Tsim, K. Blyth, A. X. Falcão"
+  title: "Meso-Regions: 4D segmentation of early contrast enhancement biomarkers for pleural mesothelioma diagnosis"
+  venue: IEEE ISBI
+  year: 2026
+  url: https://doi.org/10.1109/ISBI61048.2026.11515662
+- authors: "E. Hirata-Miyasaki, S. Pradeep, Z. Liu, A. Imran, <b>T. M. Theodoro</b>, I. E. Ivanov, S. Khadka, S.-C. Lee, M. E. Grunberg, H. Woosley, M. Bhave, C. Arias, S. B. Mehta"
+  title: Embedding cell state dynamics via contrastive learning of representations of 3D dynamic imaging datasets
+  venue: NeurIPS Workshop for Imageomics
+  year: 2025
+  url: https://openreview.net/forum?id=EDaD3KZXwI
+- authors: "E. Hirata-Miyasaki, S. Pradeep, Z. Liu, A. Imran, <b>T. M. Theodoro</b>, I. Ivanov, S. Khadka, M. Bhave, H. Woosley, C. Arias, S. B. Mehta"
+  title: Mapping cell state dynamics with AI-enabled live cell imaging
+  venue: SPIE High-Throughput Biophotonics X
+  year: 2025
+- authors: "<b>T. M. Theodoro</b>"
+  title: Towards automatic detection of pleural mesothelioma biomarker in 4D dynamic MR imaging
+  venue: M.Sc. thesis, University of Campinas
+  year: 2025
+  url: https://repositorio.unicamp.br/acervo/detalhe/1499105
+- authors: "S. Pradeep, A. Imran, Z. Liu, <b>T. M. Theodoro</b>, E. Hirata-Miyasaki, I. Ivanov, M. Bhave, S. Khadka, H. Woosley, C. Arias, S. B. Mehta"
+  title: Contrastive learning of cell state dynamics in response to perturbations
+  venue: arXiv:2410.11281
+  year: 2024
+  url: https://arxiv.org/abs/2410.11281
+- authors: "S. G. Armato, S. I. Katz, T. Frauenfelder, G. Jayasekera, A. Catino, K. G. Blyth, <b>T. Theodoro</b>, P. Rousset, K. Nackaerts, I. Opitz"
+  title: "Imaging in pleural mesothelioma: a review of the 16th International Conference of the International Mesothelioma Interest Group"
+  venue: Lung Cancer
+  year: 2024
+  url: https://doi.org/10.1016/j.lungcan.2024.107832
+- authors: "I. Borlido, F. Belém, L. Melo, <b>T. M. Theodoro</b>, I. F. Silva, Z. K. G. do Patrocínio Jr, A. X. Falcão, S. J. F. Guimarães"
+  title: "Superpixel segmentation: from theory to applications"
+  venue: SIBGRAPI
+  year: 2023
+- authors: "I. F. da Silva, <b>T. M. Theodoro</b>"
+  title: "LIDS-UNICAMP: MISe, multidimensional image segmentation software"
+  venue: Software release
+  year: 2023
+  url: https://github.com/LIDS-UNICAMP/MISe
+- authors: "<b>T. Theodoro</b>"
+  title: Improvement of an automation system to water treatment by electrocoagulation process
+  venue: Annual Congress of Scientific Initiation of UEL
+  year: 2019
+- authors: "<b>T. Theodoro</b>"
+  title: Study and development of an automation system to water treatment by electrocoagulation process
+  venue: Annual Congress of Scientific Initiation of UEL
+  year: 2018

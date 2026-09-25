@@ -1,0 +1,48 @@
+# One entry per highlight, newest first. Wrap your own name in <b></b>.
+# thumb: optional path like /img/dynatrack.png (add the file under img/). Falls back to `short` as a text placeholder.
+- short: DynaTrack
+  title: "DynaTrack: label-agnostic smart tracking for mapping dynamics of organ development"
+  authors: "<b>Taylla M. Theodoro</b>, Allyson Q. Ryan, Rachel Banks, Eduardo Hirata-Miyasaki, Tiger Lao, Sameer Jaisingh, Adrian Jacobo, Shalin B. Mehta, Ivan E. Ivanov"
+  venue: SPIE High-Throughput Biophotonics XI
+  year: 2026
+  links:
+    paper: https://doi.org/10.1117/12.3080090
+  summary: "A tracking loop that runs phase reconstruction and virtual staining during acquisition, so the microscope can follow developing zebrafish neuromasts using only gentle bright-field light. It kept 73 of 75 neuromasts in view for up to 70.5 hours; with classical imaging they drifted out of view after about 12 hours."
+
+- short: DynaCell
+  title: "DynaCell: an evaluation framework for dynamic 3D virtual staining of live cells"
+  authors: "Alexandr A. Kalinin, Dihan Zheng, <b>Taylla M. Theodoro</b>, Ivan E. Ivanov, Eduardo Hirata-Miyasaki, See-Chi Lee, Ziwen Liu, Sri Varra, Talon Chandler, Soorya Pradeep, Aofei Liu, Manuel Leonetti, Arturo Arias, Bin Huang, Shalin Mehta"
+  venue: NeurIPS Datasets and Benchmarks Track
+  year: 2026
+  links:
+    paper: https://openreview.net/forum?id=Uc0kjRCFXo
+  summary: "A benchmark for virtual staining of live cells over time: paired label-free and fluorescence volumes of A549 cells, four organelles, and three infection conditions, imaged on the Mantis microscope. I curated and registered the dataset."
+
+- short: DynaCLR
+  title: "DynaCLR: contrastive learning of cellular dynamics with temporal regularization"
+  authors: "Eduardo Hirata-Miyasaki, Soorya Pradeep, Ziwen Liu, Alishba Imran, <b>Taylla M. Theodoro</b>, Ivan E. Ivanov, et al., Shalin B. Mehta"
+  venue: arXiv; workshop papers at NeurIPS Imageomics 2025 and SPIE BiOS 2025
+  year: 2024
+  links:
+    arXiv: https://arxiv.org/abs/2410.11281
+    code: https://github.com/mehta-lab/viscy
+  summary: "Self-supervised embeddings of how single cells change over time, learned from tracked 3D time-lapses of infected and drug-treated cells. I built the data side: registration, nuclear segmentation from virtual stains, tracking with Ultrack, and curation of the dataset as OME-Zarr."
+
+- short: Meso-Regions
+  title: "Meso-Regions: 4D segmentation of early contrast enhancement biomarkers for pleural mesothelioma diagnosis"
+  authors: "<b>Taylla M. Theodoro</b>, Isabela F. Silva, Selina Tsim, Kevin Blyth, Alexandre X. Falcão"
+  venue: IEEE ISBI
+  year: 2026
+  links:
+    paper: https://doi.org/10.1109/ISBI61048.2026.11515662
+    code: https://github.com/tayllatheodoro/meso-regions
+  summary: "An open-source pipeline that flags suspicious pleural regions in dynamic contrast-enhanced MRI with no manual ROI drawing: motion correction, pleural extraction, supervoxels across all time points, per-region enhancement curves, and a rule-based detector for early contrast enhancement."
+
+- short: MISe
+  title: "MISe: multidimensional image segmentation software"
+  authors: "Isabela F. da Silva, <b>Taylla M. Theodoro</b>"
+  venue: LIDS, UNICAMP
+  year: 2023
+  links:
+    code: https://github.com/LIDS-UNICAMP/MISe
+  summary: "An interactive tool for segmenting 4D DCE-MRI, built during a research visit to the PREDICT-Meso network in Glasgow and used to produce ground-truth pleural labels for the cohort."
