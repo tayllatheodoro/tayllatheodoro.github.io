@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Taylla Theodoro</title>
+<meta name="description" content="Taylla Theodoro. R&D engineer in computational imaging at the Chan Zuckerberg Biohub San Francisco: smart microscopy, cell tracking, and 4D medical image analysis.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <a class="name" href="#">Taylla Theodoro</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="cv.pdf">CV</a>
+  </nav>
+</header>
+
+<section class="hero" id="about">
+  <!-- Drop a square headshot named photo.jpg in this folder; the image hides itself if the file is missing. -->
+  <img src="photo.jpg" alt="Taylla Theodoro" onerror="this.style.display='none'">
+  <div>
+    <p>I am an R&amp;D engineer on the <a href="https://biohub.org/comp-imaging/people/">Computational Imaging</a> platform at the Chan Zuckerberg Biohub in San Francisco. I build tools that let microscopes follow living samples on their own, and data pipelines that turn large time-lapse datasets into something biologists can actually use.</p>
+    <p>Before the Biohub I did an M.Sc. in Computer Science at the University of Campinas (UNICAMP), advised by Alexandre Xavier Falc&atilde;o, working on 4D MRI of the thorax to help radiologists spot pleural mesothelioma earlier. Part of that work was done with the PREDICT-Meso network at the University of Glasgow. My undergraduate degree is in Electrical Engineering from the State University of Londrina, where I started out building embedded sensing systems.</p>
+    <p>I care about imaging methods that hold up on real data, and about open tools that other labs can pick up and run.</p>
+  </div>
+</section>
+
+<h2 id="research">Research highlights</h2>
+
+<div class="item">
+  <div class="thumb"><img src="img/dynatrack.png" alt="" onerror="this.parentNode.textContent='DynaTrack'"></div>
+  <div>
+    <h3>DynaTrack: label-agnostic smart tracking for mapping dynamics of organ development</h3>
+    <p class="meta"><b>Taylla M. Theodoro</b>, Allyson Q. Ryan, Rachel Banks, Eduardo Hirata-Miyasaki, Tiger Lao, Sameer Jaisingh, Adrian Jacobo, Shalin B. Mehta, Ivan E. Ivanov. <i>SPIE High-Throughput Biophotonics XI</i>, 2026.</p>
+    <p class="links"><a href="https://doi.org/10.1117/12.3080090">paper</a></p>
+    <p>A tracking loop that runs phase reconstruction and virtual staining during acquisition, so the microscope can follow developing zebrafish neuromasts using only gentle bright-field light. It kept 73 of 75 neuromasts in view for up to 70.5 hours; with classical imaging they drifted out of view after about 12 hours.</p>
+  </div>
+</div>
+
+<div class="item">
+  <div class="thumb"><img src="img/dynacell.png" alt="" onerror="this.parentNode.textContent='DynaCell'"></div>
+  <div>
+    <h3>DynaCell: an evaluation framework for dynamic 3D virtual staining of live cells</h3>
+    <p class="meta">Alexandr A. Kalinin, Dihan Zheng, <b>Taylla M. Theodoro</b>, Ivan E. Ivanov, Eduardo Hirata-Miyasaki, See-Chi Lee, Ziwen Liu, Sri Varra, Talon Chandler, Soorya Pradeep, Aofei Liu, Manuel Leonetti, Arturo Arias, Bin Huang, Shalin Mehta. <i>NeurIPS Datasets and Benchmarks Track</i>, 2026.</p>
+    <p class="links"><a href="https://openreview.net/forum?id=Uc0kjRCFXo">paper</a></p>
+    <p>A benchmark for virtual staining of live cells over time: paired label-free and fluorescence volumes of A549 cells, four organelles, and three infection conditions, imaged on the Mantis microscope. I curated and registered the dataset.</p>
+  </div>
+</div>
+
+<div class="item">
+  <div class="thumb"><img src="img/dynaclr.png" alt="" onerror="this.parentNode.textContent='DynaCLR'"></div>
+  <div>
+    <h3>DynaCLR: contrastive learning of cellular dynamics with temporal regularization</h3>
+    <p class="meta">Eduardo Hirata-Miyasaki, Soorya Pradeep, Ziwen Liu, Alishba Imran, <b>Taylla M. Theodoro</b>, Ivan E. Ivanov, et al., Shalin B. Mehta. <i>arXiv</i>, 2024; workshop papers at <i>NeurIPS Imageomics</i> 2025 and <i>SPIE BiOS</i> 2025.</p>
+    <p class="links"><a href="https://arxiv.org/abs/2410.11281">arXiv</a><a href="https://github.com/mehta-lab/viscy">code</a></p>
+    <p>Self-supervised embeddings of how single cells change over time, learned from tracked 3D time-lapses of infected and drug-treated cells. I built the data side: registration, nuclear segmentation from virtual stains, tracking with Ultrack, and curation of the dataset as OME-Zarr.</p>
+  </div>
+</div>
+
+<div class="item">
+  <div class="thumb"><img src="img/meso-regions.png" alt="" onerror="this.parentNode.textContent='Meso-Regions'"></div>
+  <div>
+    <h3>Meso-Regions: 4D segmentation of early contrast enhancement biomarkers for pleural mesothelioma diagnosis</h3>
+    <p class="meta"><b>Taylla M. Theodoro</b>, Isabela F. Silva, Selina Tsim, Kevin Blyth, Alexandre X. Falc&atilde;o. <i>IEEE ISBI</i>, 2026.</p>
+    <p class="links"><a href="https://doi.org/10.1109/ISBI61048.2026.11515662">paper</a><a href="https://github.com/tayllatheodoro/meso-regions">code</a></p>
+    <p>An open-source pipeline that flags suspicious pleural regions in dynamic contrast-enhanced MRI with no manual ROI drawing: motion correction, pleural extraction, supervoxels across all time points, per-region enhancement curves, and a rule-based detector for early contrast enhancement.</p>
+  </div>
+</div>
+
+<div class="item">
+  <div class="thumb"><img src="img/mise.png" alt="" onerror="this.parentNode.textContent='MISe'"></div>
+  <div>
+    <h3>MISe: multidimensional image segmentation software</h3>
+    <p class="meta">Isabela F. da Silva, <b>Taylla M. Theodoro</b>. LIDS, UNICAMP, 2023.</p>
+    <p class="links"><a href="https://github.com/LIDS-UNICAMP/MISe">code</a></p>
+    <p>An interactive tool for segmenting 4D DCE-MRI, built during a research visit to the PREDICT-Meso network in Glasgow and used to produce ground-truth pleural labels for the cohort.</p>
+  </div>
+</div>
+
+<h2 id="publications">Publications</h2>
+<ol class="pubs">
+  <li><b>T. M. Theodoro</b>, A. Q. Ryan, R. Banks, E. Hirata-Miyasaki, T. Lao, S. Jaisingh, A. Jacobo, S. B. Mehta, I. E. Ivanov. DynaTrack: label-agnostic smart tracking for mapping dynamics of organ development. <i>SPIE High-Throughput Biophotonics XI</i>, 2026.</li>
+  <li>A. A. Kalinin, D. Zheng, <b>T. M. Theodoro</b>, I. E. Ivanov, E. Hirata-Miyasaki, S.-C. Lee, Z. Liu, S. Varra, T. Chandler, S. Pradeep, A. Liu, M. Leonetti, A. Arias, B. Huang, S. Mehta. DynaCell: an evaluation framework for dynamic 3D virtual staining of live cells. <i>NeurIPS Datasets and Benchmarks Track</i>, 2026.</li>
+  <li><b>T. M. Theodoro</b>, I. F. Silva, S. Tsim, K. Blyth, A. X. Falc&atilde;o. Meso-Regions: 4D segmentation of early contrast enhancement biomarkers for pleural mesothelioma diagnosis. <i>IEEE ISBI</i>, 2026.</li>
+  <li>E. Hirata-Miyasaki, S. Pradeep, Z. Liu, A. Imran, <b>T. M. Theodoro</b>, I. E. Ivanov, S. Khadka, S.-C. Lee, M. E. Grunberg, H. Woosley, M. Bhave, C. Arias, S. B. Mehta. Embedding cell state dynamics via contrastive learning of representations of 3D dynamic imaging datasets. <i>NeurIPS Workshop for Imageomics</i>, 2025.</li>
+  <li>E. Hirata-Miyasaki, S. Pradeep, Z. Liu, A. Imran, <b>T. M. Theodoro</b>, I. Ivanov, S. Khadka, M. Bhave, H. Woosley, C. Arias, S. B. Mehta. Mapping cell state dynamics with AI-enabled live cell imaging. <i>SPIE High-Throughput Biophotonics X</i>, 2025.</li>
+  <li><b>T. M. Theodoro</b>. Towards automatic detection of pleural mesothelioma biomarker in 4D dynamic MR imaging. M.Sc. thesis, University of Campinas, 2025.</li>
+  <li>S. Pradeep, A. Imran, Z. Liu, <b>T. M. Theodoro</b>, E. Hirata-Miyasaki, I. Ivanov, M. Bhave, S. Khadka, H. Woosley, C. Arias, S. B. Mehta. Contrastive learning of cell state dynamics in response to perturbations. <i>arXiv:2410.11281</i>, 2024.</li>
+  <li>S. G. Armato, S. I. Katz, T. Frauenfelder, G. Jayasekera, A. Catino, K. G. Blyth, <b>T. Theodoro</b>, P. Rousset, K. Nackaerts, I. Opitz. Imaging in pleural mesothelioma: a review of the 16th International Conference of the International Mesothelioma Interest Group. <i>Lung Cancer</i>, 2024.</li>
+  <li>I. Borlido, F. Bel&eacute;m, L. Melo, <b>T. M. Theodoro</b>, I. F. Silva, Z. K. G. do Patroc&iacute;nio Jr, A. X. Falc&atilde;o, S. J. F. Guimar&atilde;es. Superpixel segmentation: from theory to applications. <i>SIBGRAPI</i>, 2023.</li>
+  <li>I. F. da Silva, <b>T. M. Theodoro</b>. LIDS-UNICAMP: MISe, multidimensional image segmentation software. Software release, 2023.</li>
+  <li><b>T. Theodoro</b>. Improvement of an automation system to water treatment by electrocoagulation process. <i>Annual Congress of Scientific Initiation of UEL</i>, 2019.</li>
+  <li><b>T. Theodoro</b>. Study and development of an automation system to water treatment by electrocoagulation process. <i>Annual Congress of Scientific Initiation of UEL</i>, 2018.</li>
+</ol>
+
+<footer>
+  <div>
+    <span class="label">Contact</span>
+    <a href="mailto:taylla.theodoro@czbiohub.org">taylla.theodoro@czbiohub.org</a>
+  </div>
+  <div>
+    <span class="label">Follow</span>
+    <a href="https://github.com/tayllatheodoro">GitHub</a>
+    <a href="https://www.linkedin.com/in/taylla-theodoro/">LinkedIn</a>
+    <a href="cv.pdf">CV (PDF)</a>
+  </div>
+  <div><span class="label">Updated</span>September 2026</div>
+</footer>
+
+</div>
+</body>
+</html>
